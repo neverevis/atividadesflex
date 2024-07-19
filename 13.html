@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13</title>
+    <style>
+        .inner-container
+        {
+            background-color: blueviolet;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .outer-container
+        {
+            background-color: green;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .item1
+        {
+            background-color: blue;
+        }
+        .item2
+        {
+            background-color: red;
+        }
+        .item3
+        {
+            background-color: yellow;
+        }
+        .item4
+        {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+            <div class="item1">Item1</div>
+            <div class="item2">Item2</div>
+        </div>
+        <div class="item3">Item3</div>
+        <div class="item4">Item3</div>
+    </div>
+    <p>ao criar dois containers e alinha-los de maneira diferente, o container interior e exterior ficam empilhados exibindo seus itens de maneira diferente</p>
+    
+</body>
+</html>

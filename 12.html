@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12</title>
+    <style>
+        .container
+        {
+            background-color: blueviolet;
+            width: 300px;
+            height: 300px;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .item:first-child
+        {
+            background-color: blue;
+        }
+        .item:nth-child(2)
+        {
+            background-color: red;
+        }
+        .item:nth-child(3)
+        {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item1</div>
+        <div class="item">Item2</div>
+        <div class="item">Item3</div>
+    </div>
+    <p>'gap' define um espaço entre os itens de acordo com sua direção flex</p>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19</title>
+    <style>
+        .container
+        {
+            background-color: blueviolet;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .item1
+        {
+            background-color: blue;
+            flex: 1 1 calc(33.333% - 10px);
+            box-sizing: border-box;
+        }
+        .item2
+        {
+            background-color: red;
+            flex: 1 1 calc(33.333% - 10px);
+            box-sizing: border-box;
+        }
+        .item3
+        {
+            flex: 1 1 calc(33.333% - 10px);
+            box-sizing: border-box;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Item1</div>
+        <div class="item2">Item2</div>
+        <div class="item3">Item3</div>
+    </div>
+    <p>cada item consome 33% do espaço total da janela que ocupa(no caso do container) e utiliza um espaçamento de 10px entre eles</p>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9</title>
+    <style>
+        .container
+        {
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+        .item:first-child
+        {
+            align-self: flex-end;
+            background-color: blue;
+        }
+        .item:nth-child(2)
+        {
+            background-color: red;
+        }
+        .item:nth-child(3)
+        {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item1</div>
+        <div class="item">Item2</div>
+        <div class="item">Item3</div>
+    </div>
+    <p>'align-self' faz um item especifico alinhar-se em um eixo do container</p>
+    
+</body>
+</html>

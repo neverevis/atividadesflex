@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15</title>
+    <style>
+        .container
+        {
+            background-color: blueviolet;
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            flex-wrap: wrap;
+        }
+        .item1
+        {
+            background-color: blue;
+            flex: 2 1 200px;
+        }
+        .item2
+        {
+            background-color: red;
+            flex: 1 1 100px;
+        }
+        .item3
+        {
+            flex: 1 2 150px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Item1</div>
+        <div class="item2">Item2</div>
+        <div class="item3">Item3</div>
+    </div>
+    <p>definindo diferentes propriedades flex de crescimento, encolhimento e tamanho base, a página fica dinamica e muda o tamanho dos itens dinamicamente de acordo com o viewport.</p>
+    
+</body>
+</html>

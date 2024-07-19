@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20</title>
+    <style>
+        .container
+        {
+            background-color: blueviolet;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            flex-direction: column;
+            align-items: center;
+            justify-items: space-evenly;
+        }
+        .item1
+        {
+            background-color: blue;
+            flex: 1 1 200px
+        }
+        .item2
+        {
+            background-color: red;
+            flex-grow: 2;
+        }
+        .item3
+        {
+            order: -1;
+            flex-basis: 300px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Item1</div>
+        <div class="item2">Item2</div>
+        <div class="item3">Item3</div>
+    </div>
+    <p>container está no modo de exibição flex, os itens se organizam para se exibir na tela. espaçamento entre os itens foi definido como 15 px, a direção do modo flex é de colunas</p>
+    <p>os itens são alinhados horizontalmente no centro e de maneira proporcional verticalmente</p>
+    <p>o primeiro item cresce 1 diminui 1 e tem como base 200px</p>
+    <p>o segundo item cresce 2</p>
+    <p>o terceiro item tem a ordem diminuida em 1 e uma base de 300px</p>
+    
+</body>
+</html>

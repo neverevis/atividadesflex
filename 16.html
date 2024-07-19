@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16</title>
+    <style>
+        .container
+        {
+            width: 300px;
+            height: 300px;
+            background-color: blueviolet;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        @media(max-width:600px)
+        {
+            .container
+            {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .item1
+        {
+            background-color: blue;
+        }
+        .item2
+        {
+            background-color: red;
+        }
+        .item3
+        {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">Item1</div>
+        <div class="item2">Item2</div>
+        <div class="item3">Item3</div>
+    </div>
+    <p>@media define uma condição para substituir propriedades do css quando esta condição for atendida (mantem as propriedes que o @media não incluir em sua alteração)</p>
+    
+</body>
+</html>
